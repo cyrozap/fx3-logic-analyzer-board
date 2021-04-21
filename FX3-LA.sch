@@ -1,0 +1,563 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74LS541 U1
+U 1 1 607A3163
+P 4400 2100
+F 0 "U1" H 4100 2800 50  0000 L CNN
+F 1 "74LVC541APW" H 4500 2800 50  0000 L CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 4400 2100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC541A.pdf" H 4400 2100 50  0001 C CNN
+	1    4400 2100
+	1    0    0    -1  
+$EndComp
+Text Label 3700 1600 0    50   ~ 0
+D0
+Text Label 3700 1700 0    50   ~ 0
+D1
+Text Label 3700 1800 0    50   ~ 0
+D2
+Text Label 3700 1900 0    50   ~ 0
+D3
+Text Label 3700 2000 0    50   ~ 0
+D4
+Text Label 3700 2100 0    50   ~ 0
+D5
+Text Label 3700 2200 0    50   ~ 0
+D6
+Text Label 3700 2300 0    50   ~ 0
+D7
+Wire Wire Line
+	3700 1600 3900 1600
+Wire Wire Line
+	3900 1700 3700 1700
+Wire Wire Line
+	3700 1800 3900 1800
+Wire Wire Line
+	3900 1900 3700 1900
+Wire Wire Line
+	3700 2000 3900 2000
+Wire Wire Line
+	3900 2100 3700 2100
+Wire Wire Line
+	3700 2200 3900 2200
+Wire Wire Line
+	3900 2300 3700 2300
+Text Label 5300 1600 2    50   ~ 0
+FX3_D0
+Text Label 5300 1700 2    50   ~ 0
+FX3_D1
+Text Label 5300 1800 2    50   ~ 0
+FX3_D2
+Text Label 5300 1900 2    50   ~ 0
+FX3_D3
+Text Label 5300 2000 2    50   ~ 0
+FX3_D4
+Text Label 5300 2100 2    50   ~ 0
+FX3_D5
+Text Label 5300 2300 2    50   ~ 0
+FX3_D7
+Text Label 5300 2200 2    50   ~ 0
+FX3_D6
+Wire Wire Line
+	5300 1600 4900 1600
+Wire Wire Line
+	4900 1700 5300 1700
+Wire Wire Line
+	5300 1800 4900 1800
+Wire Wire Line
+	4900 1900 5300 1900
+Wire Wire Line
+	5300 2000 4900 2000
+Wire Wire Line
+	4900 2100 5300 2100
+Wire Wire Line
+	5300 2200 4900 2200
+Wire Wire Line
+	4900 2300 5300 2300
+$Comp
+L power:VCC #PWR05
+U 1 1 607B677A
+P 4400 1300
+F 0 "#PWR05" H 4400 1150 50  0001 C CNN
+F 1 "VCC" H 4415 1473 50  0000 C CNN
+F 2 "" H 4400 1300 50  0001 C CNN
+F 3 "" H 4400 1300 50  0001 C CNN
+	1    4400 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2500 3900 2600
+Wire Wire Line
+	3900 2600 3900 2700
+Connection ~ 3900 2600
+$Comp
+L power:GND #PWR03
+U 1 1 607B8C31
+P 3900 2700
+F 0 "#PWR03" H 3900 2450 50  0001 C CNN
+F 1 "GND" H 3905 2527 50  0000 C CNN
+F 2 "" H 3900 2700 50  0001 C CNN
+F 3 "" H 3900 2700 50  0001 C CNN
+	1    3900 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 607B8DD3
+P 4400 2900
+F 0 "#PWR06" H 4400 2650 50  0001 C CNN
+F 1 "GND" H 4405 2727 50  0000 C CNN
+F 2 "" H 4400 2900 50  0001 C CNN
+F 3 "" H 4400 2900 50  0001 C CNN
+	1    4400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS541 U2
+U 1 1 607BCCF2
+P 4400 4900
+F 0 "U2" H 4100 5600 50  0000 L CNN
+F 1 "74LVC541APW" H 4500 5600 50  0000 L CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 4400 4900 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC541A.pdf" H 4400 4900 50  0001 C CNN
+	1    4400 4900
+	1    0    0    -1  
+$EndComp
+Text Label 3700 4400 0    50   ~ 0
+D8
+Text Label 3700 4500 0    50   ~ 0
+D9
+Text Label 3700 4600 0    50   ~ 0
+D10
+Text Label 3700 4700 0    50   ~ 0
+D11
+Text Label 3700 4800 0    50   ~ 0
+D12
+Text Label 3700 4900 0    50   ~ 0
+D13
+Text Label 3700 5000 0    50   ~ 0
+D14
+Text Label 3700 5100 0    50   ~ 0
+D15
+Wire Wire Line
+	3700 4400 3900 4400
+Wire Wire Line
+	3900 4500 3700 4500
+Wire Wire Line
+	3700 4600 3900 4600
+Wire Wire Line
+	3900 4700 3700 4700
+Wire Wire Line
+	3700 4800 3900 4800
+Wire Wire Line
+	3900 4900 3700 4900
+Wire Wire Line
+	3700 5000 3900 5000
+Wire Wire Line
+	3900 5100 3700 5100
+Text Label 5300 4400 2    50   ~ 0
+FX3_D8
+Text Label 5300 4500 2    50   ~ 0
+FX3_D9
+Text Label 5300 4600 2    50   ~ 0
+FX3_D10
+Text Label 5300 4700 2    50   ~ 0
+FX3_D11
+Text Label 5300 4800 2    50   ~ 0
+FX3_D12
+Text Label 5300 4900 2    50   ~ 0
+FX3_D13
+Text Label 5300 5100 2    50   ~ 0
+FX3_D15
+Text Label 5300 5000 2    50   ~ 0
+FX3_D14
+Wire Wire Line
+	5300 4400 4900 4400
+Wire Wire Line
+	4900 4500 5300 4500
+Wire Wire Line
+	5300 4600 4900 4600
+Wire Wire Line
+	4900 4700 5300 4700
+Wire Wire Line
+	5300 4800 4900 4800
+Wire Wire Line
+	4900 4900 5300 4900
+Wire Wire Line
+	5300 5000 4900 5000
+Wire Wire Line
+	4900 5100 5300 5100
+$Comp
+L power:VCC #PWR07
+U 1 1 607BCD18
+P 4400 4100
+F 0 "#PWR07" H 4400 3950 50  0001 C CNN
+F 1 "VCC" H 4415 4273 50  0000 C CNN
+F 2 "" H 4400 4100 50  0001 C CNN
+F 3 "" H 4400 4100 50  0001 C CNN
+	1    4400 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 5300 3900 5400
+Wire Wire Line
+	3900 5400 3900 5500
+Connection ~ 3900 5400
+$Comp
+L power:GND #PWR04
+U 1 1 607BCD21
+P 3900 5500
+F 0 "#PWR04" H 3900 5250 50  0001 C CNN
+F 1 "GND" H 3905 5327 50  0000 C CNN
+F 2 "" H 3900 5500 50  0001 C CNN
+F 3 "" H 3900 5500 50  0001 C CNN
+	1    3900 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 607BCD27
+P 4400 5700
+F 0 "#PWR08" H 4400 5450 50  0001 C CNN
+F 1 "GND" H 4405 5527 50  0000 C CNN
+F 2 "" H 4400 5700 50  0001 C CNN
+F 3 "" H 4400 5700 50  0001 C CNN
+	1    4400 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x15_Odd_Even J1
+U 1 1 607D7E79
+P 1800 3500
+F 0 "J1" H 1850 4417 50  0000 C CNN
+F 1 "Conn_02x15_Odd_Even" H 1850 4326 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x15_P2.54mm_Vertical" H 1800 3500 50  0001 C CNN
+F 3 "~" H 1800 3500 50  0001 C CNN
+	1    1800 3500
+	1    0    0    -1  
+$EndComp
+Text Label 2300 3500 2    50   ~ 0
+D0
+Text Label 2300 3600 2    50   ~ 0
+D1
+Text Label 2300 3700 2    50   ~ 0
+D2
+Text Label 2300 3800 2    50   ~ 0
+D3
+Text Label 2300 3900 2    50   ~ 0
+D4
+Text Label 2300 4000 2    50   ~ 0
+D5
+Text Label 2300 4100 2    50   ~ 0
+D6
+Text Label 2300 4200 2    50   ~ 0
+D7
+Text Label 1400 3500 0    50   ~ 0
+D8
+Text Label 1400 3600 0    50   ~ 0
+D9
+Text Label 1400 3700 0    50   ~ 0
+D10
+Text Label 1400 3800 0    50   ~ 0
+D11
+Text Label 1400 3900 0    50   ~ 0
+D12
+Text Label 1400 4000 0    50   ~ 0
+D13
+Text Label 1400 4100 0    50   ~ 0
+D14
+Text Label 1400 4200 0    50   ~ 0
+D15
+Wire Wire Line
+	1400 3500 1600 3500
+Wire Wire Line
+	1600 3600 1400 3600
+Wire Wire Line
+	1400 3700 1600 3700
+Wire Wire Line
+	1600 3800 1400 3800
+Wire Wire Line
+	1400 3900 1600 3900
+Wire Wire Line
+	1600 4000 1400 4000
+Wire Wire Line
+	1400 4100 1600 4100
+Wire Wire Line
+	1600 4200 1400 4200
+Wire Wire Line
+	2300 3500 2100 3500
+Wire Wire Line
+	2100 3600 2300 3600
+Wire Wire Line
+	2300 3700 2100 3700
+Wire Wire Line
+	2100 3800 2300 3800
+Wire Wire Line
+	2300 3900 2100 3900
+Wire Wire Line
+	2100 4000 2300 4000
+Wire Wire Line
+	2300 4100 2100 4100
+Wire Wire Line
+	2100 4200 2300 4200
+$Comp
+L power:GND #PWR01
+U 1 1 607EFBAA
+P 1200 3400
+F 0 "#PWR01" H 1200 3150 50  0001 C CNN
+F 1 "GND" H 1205 3227 50  0000 C CNN
+F 2 "" H 1200 3400 50  0001 C CNN
+F 3 "" H 1200 3400 50  0001 C CNN
+	1    1200 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 3000 1200 3000
+Wire Wire Line
+	1200 3000 1200 3300
+Wire Wire Line
+	1600 3300 1200 3300
+Connection ~ 1200 3300
+Wire Wire Line
+	1200 3300 1200 3400
+$Comp
+L power:GND #PWR02
+U 1 1 607F58CF
+P 2500 3400
+F 0 "#PWR02" H 2500 3150 50  0001 C CNN
+F 1 "GND" H 2505 3227 50  0000 C CNN
+F 2 "" H 2500 3400 50  0001 C CNN
+F 3 "" H 2500 3400 50  0001 C CNN
+	1    2500 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 3400 2500 3300
+Wire Wire Line
+	2500 3000 2100 3000
+Wire Wire Line
+	2100 3300 2500 3300
+Connection ~ 2500 3300
+Wire Wire Line
+	2500 3300 2500 3000
+NoConn ~ 2100 2800
+NoConn ~ 2100 2900
+NoConn ~ 2100 3100
+NoConn ~ 2100 3200
+NoConn ~ 2100 3400
+NoConn ~ 1600 3400
+NoConn ~ 1600 3200
+NoConn ~ 1600 3100
+NoConn ~ 1600 2900
+NoConn ~ 1600 2800
+Wire Wire Line
+	7800 1200 7800 1100
+$Comp
+L power:GND #PWR09
+U 1 1 60828647
+P 6900 3100
+F 0 "#PWR09" H 6900 2850 50  0001 C CNN
+F 1 "GND" H 6905 2927 50  0000 C CNN
+F 2 "" H 6900 3100 50  0001 C CNN
+F 3 "" H 6900 3100 50  0001 C CNN
+	1    6900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 6082826E
+P 7600 3100
+F 0 "#PWR010" H 7600 2850 50  0001 C CNN
+F 1 "GND" H 7605 2927 50  0000 C CNN
+F 2 "" H 7600 3100 50  0001 C CNN
+F 3 "" H 7600 3100 50  0001 C CNN
+	1    7600 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 3000 7600 3100
+Wire Wire Line
+	7500 3000 7600 3000
+Wire Wire Line
+	6900 3000 6900 3100
+Connection ~ 6900 3000
+Wire Wire Line
+	7000 3000 6900 3000
+Wire Wire Line
+	6900 2500 6900 3000
+Connection ~ 6900 2500
+Wire Wire Line
+	6900 2500 7000 2500
+Wire Wire Line
+	6900 2300 6900 2500
+Connection ~ 6900 2300
+Wire Wire Line
+	7000 2300 6900 2300
+Wire Wire Line
+	6900 1900 6900 2300
+Connection ~ 6900 1900
+Wire Wire Line
+	7000 1900 6900 1900
+Wire Wire Line
+	6900 1800 6900 1900
+Connection ~ 6900 1800
+Wire Wire Line
+	7000 1800 6900 1800
+Wire Wire Line
+	6900 1700 6900 1800
+Wire Wire Line
+	7000 1700 6900 1700
+Wire Wire Line
+	7800 1200 7500 1200
+$Comp
+L power:VCC #PWR011
+U 1 1 60815E58
+P 7800 1100
+F 0 "#PWR011" H 7800 950 50  0001 C CNN
+F 1 "VCC" H 7815 1273 50  0000 C CNN
+F 2 "" H 7800 1100 50  0001 C CNN
+F 3 "" H 7800 1100 50  0001 C CNN
+	1    7800 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J2
+U 1 1 6080D588
+P 7200 2000
+F 0 "J2" H 7250 3117 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 7250 3026 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 7200 2000 50  0001 C CNN
+F 3 "~" H 7200 2000 50  0001 C CNN
+	1    7200 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 2100 10200 2100
+Wire Wire Line
+	10200 2000 9700 2000
+Wire Wire Line
+	9700 1900 10200 1900
+Wire Wire Line
+	10200 1800 9700 1800
+Wire Wire Line
+	9700 1700 10200 1700
+Wire Wire Line
+	10200 1600 9700 1600
+Wire Wire Line
+	9700 1500 10200 1500
+Wire Wire Line
+	10200 1400 9700 1400
+Text Label 10200 1500 2    50   ~ 0
+FX3_D14
+Text Label 10200 1400 2    50   ~ 0
+FX3_D15
+Text Label 10200 1600 2    50   ~ 0
+FX3_D13
+Text Label 10200 1700 2    50   ~ 0
+FX3_D12
+Text Label 10200 1800 2    50   ~ 0
+FX3_D11
+Text Label 10200 1900 2    50   ~ 0
+FX3_D10
+Text Label 10200 2000 2    50   ~ 0
+FX3_D9
+Text Label 10200 2100 2    50   ~ 0
+FX3_D8
+Wire Wire Line
+	10200 2900 9700 2900
+Wire Wire Line
+	10200 2800 9700 2800
+Wire Wire Line
+	9700 2700 10200 2700
+Wire Wire Line
+	10200 2600 9700 2600
+Wire Wire Line
+	9700 2500 10200 2500
+Wire Wire Line
+	10200 2400 9700 2400
+Wire Wire Line
+	9700 2300 10200 2300
+Wire Wire Line
+	10200 2200 9700 2200
+Text Label 10200 2300 2    50   ~ 0
+FX3_D6
+Text Label 10200 2200 2    50   ~ 0
+FX3_D7
+Text Label 10200 2400 2    50   ~ 0
+FX3_D5
+Text Label 10200 2500 2    50   ~ 0
+FX3_D4
+Text Label 10200 2600 2    50   ~ 0
+FX3_D3
+Text Label 10200 2700 2    50   ~ 0
+FX3_D2
+Text Label 10200 2800 2    50   ~ 0
+FX3_D1
+Text Label 10200 2900 2    50   ~ 0
+FX3_D0
+$Comp
+L power:GND #PWR013
+U 1 1 608421A5
+P 9800 3100
+F 0 "#PWR013" H 9800 2850 50  0001 C CNN
+F 1 "GND" H 9805 2927 50  0000 C CNN
+F 2 "" H 9800 3100 50  0001 C CNN
+F 3 "" H 9800 3100 50  0001 C CNN
+	1    9800 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 60841AF6
+P 9100 3100
+F 0 "#PWR012" H 9100 2850 50  0001 C CNN
+F 1 "GND" H 9105 2927 50  0000 C CNN
+F 2 "" H 9100 3100 50  0001 C CNN
+F 3 "" H 9100 3100 50  0001 C CNN
+	1    9100 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 2900 9100 3100
+Connection ~ 9100 2900
+Wire Wire Line
+	9200 2900 9100 2900
+Wire Wire Line
+	9100 2700 9100 2900
+Connection ~ 9100 2700
+Wire Wire Line
+	9200 2700 9100 2700
+Wire Wire Line
+	9800 1300 9800 3100
+Wire Wire Line
+	9700 1300 9800 1300
+Wire Wire Line
+	9100 1300 9100 2700
+Wire Wire Line
+	9200 1300 9100 1300
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J3
+U 1 1 60836873
+P 9400 2000
+F 0 "J3" H 9450 3117 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 9450 3026 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 9400 2000 50  0001 C CNN
+F 3 "~" H 9400 2000 50  0001 C CNN
+	1    9400 2000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
