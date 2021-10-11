@@ -39,9 +39,15 @@ This is a simple expansion board for the [Cypress FX3 SuperSpeed Explorer Kit (C
  - There currently isn't any kind of termination on the inputs, so sometimes for very fast signals the logic analyzer probe wires end up acting like stub wires and degrade the signal to the point that the Device Under Test (DUT) doesn't work properly.
 
 
+## License
+
+This project is released under the [Creative Commons Zero Public Domain Dedication][cc0], so please feel free to use or modify it however you like.
+
+
 [kit]: https://www.cypress.com/documentation/development-kitsboards/cyusb3kit-003-ez-usb-fx3-superspeed-explorer-kit
 [analog-discovery]: https://digilent.com/reference/test-and-measurement/analog-discovery/reference-manual#pin_out_diagram
 [adalm2000]: https://wiki.analog.com/university/tools/m2k/devs/intro#pinout
 [cable]: https://digilent.com/shop/2x15-flywires-signal-cable-assembly-for-the-analog-discovery/
 [render-front]: doc/pcb-render-v0.1-front.png
 [render-back]: doc/pcb-render-v0.1-back.png
+[cc0]: https://creativecommons.org/publicdomain/zero/1.0/
